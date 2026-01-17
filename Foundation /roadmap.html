@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roadmap | My Journal</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="container header">
+      <a class="logo" href="index.html">My Journal</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a
+          href="https://hrikisschitrakar.wordpress.com"
+          target="_blank"
+          rel="noopener"
+        >
+          Blog
+        </a>
+        <a href="roadmap.html" aria-current="page">Roadmap</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h1>Learning Roadmap</h1>
+
+      <ul class="card">
+        <li><strong>Foundations:</strong> HTML, CSS, JavaScript, Git</li>
+        <li><strong>Frontend:</strong> React</li>
+        <li><strong>Backend:</strong> Node.js, Express, Database</li>
+        <li><strong>Full Stack:</strong> Auth, APIs, Deployment</li>
+      </ul>
+    </main>
+
+    <footer class="container footer">
+      <small>© <span id="year"></span> My Journal</small>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

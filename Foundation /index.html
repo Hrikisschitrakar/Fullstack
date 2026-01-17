@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Full-Stack Learning Journal</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="container header">
+      <a class="logo" href="index.html">My Journal</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a
+          href="https://hrikisschitrakar.wordpress.com"
+          target="_blank"
+          rel="noopener"
+        >
+          Blog
+        </a>
+        <a href="roadmap.html">Roadmap</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>My Full-Stack Learning Journal 🚀</h1>
+        <p>
+          Learning full-stack development from scratch.  
+          One hour a day. Building in public.
+        </p>
+
+        <div class="hero-actions">
+          <a
+            class="btn"
+            href="https://hrikisschitrakar.wordpress.com"
+            target="_blank"
+            rel="noopener"
+          >
+            Read My Blog →
+          </a>
+          <a class="btn btn-outline" href="roadmap.html">View Roadmap</a>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Why This Site</h2>
+          <p>
+            This website documents my journey while the actual blog lives on
+            WordPress.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Current Focus</h2>
+          <p>HTML foundations and clean structure.</p>
+        </article>
+
+        <article class="card">
+          <h2>Daily Commitment</h2>
+          <p>1 hour per day. No excuses.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <small>© <span id="year"></span> My Full-Stack Learning Journal</small>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
